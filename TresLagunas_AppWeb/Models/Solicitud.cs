@@ -8,5 +8,7 @@
         public string Telefono { get; set; }
         public string Correo {  get; set; }
         public string Descripcion { get; set; }
+        public int IDServicio { get; set; }
+        public virtual Servicio Servicio { get; set; }
     }
 }
